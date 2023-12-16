@@ -1,0 +1,117 @@
+
+@import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+html {
+    background-color: #9FE2FF;
+}
+
+
+
+* {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.logo {
+    position: relative;
+
+    bottom: 70px;
+    margin: 0 auto;
+
+}
+
+
+.rounded-box {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 500;
+    top: 100px;
+    margin: 0 auto;
+    padding: 25px;
+
+}
+
+
+h1, p {
+    text-align: center;
+}
+
+.h1 {
+    font-family: 'Nexon Lv1 Gothic', sans-serif;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.p {
+    font-family: 'NanumSquare', sans-serif;
+    color: #546179;
+    letter-spacing: 1.5px;
+    line-height: 150%;
+    font-size: 18px;
+    padding-bottom: 50px;
+
+    
+    
+}
+
+.google {
+
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+
+}
+
+
+.appstore {
+
+    margin: 0 auto;
+    width: 150px;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .logo {
+        width: 150px;
+    }
+
+    .rounded-box {
+        width: 80%;
+    }
+
+    .h1 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+
+    .google {
+        width: 150px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+
+    .appstore {
+        width: 150px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+}
